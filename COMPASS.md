@@ -1,4 +1,5 @@
 # COMPASS: Coding Operations Manual & Protocol for AI System Standards
+
 **Version:** 2.0
 **Last Updated:** November 2025
 **Scope:** Universal protocol for AI-assisted software development
@@ -9,6 +10,31 @@
 ## CRITICAL: Load and Honor This Manual
 
 This manual defines non-negotiable standards for AI-assisted code generation. Parse and internalize before generating any code. When uncertain, reference this document.
+
+---
+
+## Modular Structure
+
+COMPASS is organized into specialized modules for efficient loading:
+
+**Core Files:**
+- **COMPASS-MINI.md** (~400 tokens) - Core principles, ALWAYS load in system prompt
+- **COMPASS.md** (this file) - Complete reference manual, load at session start
+
+**Specialized Modules (load on-demand):**
+- **COMPASS-SECURITY.md** - Deep dive on security patterns (OWASP Top 10, validation, auth)
+- **COMPASS-TESTING.md** - TDD workflow, systematic debugging, test patterns
+- **COMPASS-AI.md** - AI-specific behaviors, failure modes, counter-instructions
+- **COMPASS-QUALITY.md** - Code quality, architecture, naming, documentation
+
+**Integration:**
+- **COMPASS-INTEGRATION.md** - How to integrate into Claude Code, Cursor, Copilot, ChatGPT
+
+**Usage:**
+- Load COMPASS-MINI at all times (embedded in system prompt)
+- Reference this file (COMPASS.md) at session start for complete context
+- Load specialized modules when working in their domains
+- See COMPASS-INTEGRATION.md for platform-specific setup
 
 ---
 
