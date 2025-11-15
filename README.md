@@ -1,3 +1,11 @@
+```
+▄█████▄  ▄█████▄  ██    ██  ▄█████▄   ▄████▄   ▄█████▄  ▄█████▄
+██       ██   ██  ███  ███  ██   ██  ██    ██  ██       ██
+██       ██   ██  ██ ██ ██  ██████   ████████  ▀█████▄  ▀█████▄
+██       ██   ██  ██    ██  ██       ██    ██       ██       ██
+▀██████  ▀█████▀  ██    ██  ██       ██    ██  ██████▀  ██████▀
+```
+
 # 🧭 COMPASS: Coding Operations Manual & Protocol for AI System Standards
 
 I've been coding with AI agents (mostly Claude Code, ChatGPT Codex, GitHub Copilot) and while I think they're fantastic (almost magical) I've seen a number of issues: AI tools can over-engineer, reinvent established patterns, hallucinate dependencies or APIs, skip input validation, create monolithic codebases, ignore error handling, bypass testing, hardcode secrets, skip null checks, and crucially, lead to a range of security risks.
