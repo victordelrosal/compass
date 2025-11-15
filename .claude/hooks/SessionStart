@@ -1,0 +1,7 @@
+#!/bin/bash
+# SessionStart hook - runs at the beginning of every session
+
+# Inject COMPASS-MINI.md into session context
+echo "Loading COMPASS-MINI.md into session context..."
+echo ""
+cat "/Users/victordelrosal/Library/CloudStorage/Dropbox/Dropbox24/fiveinnolabs/SmallBets/COMPASS/COMPASS-MINI.md"
