@@ -441,7 +441,7 @@ COMPASS is built on decades of software engineering best practices from:
 
 ## License
 
-MIT License - See [LICENSE](LICENSE) file for details
+COMPASS is released under the MIT License. This means you're free to use, modify, and distribute it in your projects, whether commercial or personal. See the [LICENSE](LICENSE) file for details.
 
 ---
 
